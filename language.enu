@@ -54,6 +54,8 @@ VARIETY_SURE = "This difficulty replaces some of the\n"
 "Also the monsters are placed like in the I'm Bad*ss difficulty.\n"
 "\n"
 "Do you really want to experience agony?";
+SKILL_ERECTVARIETY = "Infertile Variety";
+ERECTVARIETY_SURE = "Abandon hope all ye who enter here.";
 
 BADASS01 = "Hydroelectronic Plant";
 BADASS02 = "I eat the concrete from the sidewalk";
@@ -260,6 +262,8 @@ VARIETY_SURE = "Ten poziom trudności zamienia\n"
 "Potwory są ułożone na mapie jak w Jestem Twar***el.\n"
 "\n"
 "Czy chcesz doświadczyć agonii?";
+SKILL_ERECTVARIETY = "Bezpłodna Różnorodność";
+ERECTVARIETY_SURE = "Porzućcie wszelką nadzieję, wy, którzy tu wchodzicie.";
 
 BADASS02 = "Jem beton z chodnika";
 BADASS03 = "Epicki Labirynt Śmierci Geoffa";
@@ -293,7 +297,7 @@ ENDLESS_PARK = "Park Wypoczynku";
 
 DEATHSCREEN = "Spierdoliłeś";
 SECRETTEXT =
-	"Wchodzisz to tajemniczego teleportera który\n"
+	"Wchodzisz do tajemniczego teleportera który\n"
 	"otworzył się w dolnym piętrze metra.\n"
 	"Odcień zielonego świeci ci się przed oczami, i wszystko\n"
 	"się przyciemnia. Po 4 godzinach budzisz się, i już wiesz\n"
@@ -318,7 +322,7 @@ BD06_1 = "Drzwi muszą być odblokowane terminalem.";
 BD12_1 = "\c[Grey]Szary kurwiszon:\c[Gold] Naprzód!";
 BD12_2 = "\c[Grey]Szary kurwiszon:\c[Gold] O kurwa, ty mnie zabiłeś, ty twar***elu!";
 BD29_1 = "Maj 24: Domena Wielkiego Timmy'ego";
-BD29_2 = "Royland, to komenda. Zabezpieczyliśmy teren. Wejdź do portalu i załatw wszystkich.";
+BD29_2 = "Royland, tu komenda. Zabezpieczyliśmy teren. Wejdź do portalu i załatw wszystkich.";
 BD29_3 = "Robi się.";
 BD29_4 = "WITAM, BARNSTABLE. CZY JESTEŚ GOTOWY ABY UMRZEĆ?";
 BD29_5 = "Nawzajem.";

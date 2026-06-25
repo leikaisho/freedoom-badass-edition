@@ -58,7 +58,7 @@ Map BADASS03 "$BADASS03"
 	Sky1 = SKY1
 	Par = 45
 	Music = D_COUNTD
-	Author = Saver310
+	Author = CMOS555
 	ResetHealth
 }
 Map BADASS04 "$BADASS04"
@@ -345,7 +345,8 @@ Map TESTICLE "$TESTICLE" {
 Map TITLEMAP "$TITLEMAP" 
 {
 	Next = BADASS01
-	Sky1 = SKY1
+	Sky1 = ofissky, 0.1
+	Sky2 = SKY3
 	Author = Saver310
 	NoJump
 	NoFreeLook
@@ -574,6 +575,28 @@ Skill Variety
 	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
 	ReplaceActor = "CorpseTosser", "TheNuker"
 }
+Skill ErectVariety
+{
+	SpawnFilter = Nightmare
+	AmmoFactor = 2
+	DisableCheats
+	NoPain
+	NoInfighting
+	MonsterHealth = 2
+	HealthFactor = 2
+	KickbackFactor = 4
+	DamageFactor = 2
+	Name = "$SKILL_ERECTVARIETY"
+	MustConfirm = "$ERECTVARIETY_SURE"
+	ReplaceActor = "ZombieMan", "FiveHundredBullets"
+	ReplaceActor = "ShotgunGuy", "DumbShotgunZombo"
+	ReplaceActor = "ChaingunGuy", "shittyhitscanass_mini"
+	ReplaceActor = "Trilobite", "BadassTrilobite"
+	ReplaceActor = "HellKnight", "shittyhitscanass"
+	ReplaceActor = "PainElemental", "FucketSpawnLocation"
+	ReplaceActor = "Spidermastermind", "TechnoSpiderDriver"
+	ReplaceActor = "CorpseTosser", "TheNuker"
+}
 GameInfo
 {
 	QuitSound = "menu/quit"
@@ -601,6 +624,7 @@ DoomEdNums
 	26030 = "ShopkeeperSS"
 	26031 = "BadassTrilobite"
 	26032 = "serpentilliondollars"
+	26033 = "FiveHundredBullets"
 	32420 = "Convicts"
 	6345 = "Timmy"
 }
